@@ -329,3 +329,14 @@ textarea {
     border-radius: 5px;
     display: block;
 }
+
+@media (max-width: 450px) {
+    .contact {
+        display: block;
+        width: 100%;
+
+        > div {
+            width: 100%;
+        }
+    }
+}
