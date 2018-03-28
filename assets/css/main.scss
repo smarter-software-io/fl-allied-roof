@@ -67,6 +67,23 @@ html, .body {
     }
 }
 
+#mobile-nav {
+    font-family: 'Montserrat', sans-serif;
+    margin: 62px auto 0 auto;
+    display: none;
+    text-align: center;
+    color: black;
+
+    a {
+        color: black;
+    }
+}
+
+@media(max-width: 450px) {
+    #mobile-nav {
+        display: block;
+    }
+}
 .hero {
     display: flex;
     justify-content: center;
@@ -178,6 +195,7 @@ footer {
 
 @media (max-width: 450px) {
     #nav {
+        border-bottom: 1px solid white;
         .left, .right {
             display: none;
         }
@@ -208,6 +226,7 @@ footer {
     margin: 20px 10px 10px 10px;
 
     .phone {
+        display: block;
         padding-left: 6px;
         font-size: 16px;
         font-weight: bold;
