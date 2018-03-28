@@ -226,6 +226,13 @@ footer {
     border-radius: 11px;
     border: 1px solid #e2e2e2;
 
+    label {
+        font-size: 15px;
+        padding-left: 15px;
+        margin: 0 0 15px 15px;
+        display: block;
+    }
+
     > div {
         width: 400px;
         overflow: hidden;
@@ -238,17 +245,27 @@ footer {
             font-weight: 500;
         }
 
-        input {
+        input:not([type="submit"]) {
             font-size: 14px;
             border: 0px solid gainsboro;
-            padding: 9px 15px;
-            margin: 17px;
+            padding: 9px 0px 0px 30px;
+            margin: 17px 0px;
             display: block;
             width: 100%;
 
             &:focus {
                 outline: none;
             }
+        }
+
+        input[type="submit"] {
+            font-size: 13px;
+            border: 1px solid #e2e2e2;
+            background: white;
+            border-radius: 5px;
+            padding: 8px 21px;
+            display: block;
+            margin: 14px auto;
         }
     }
 
@@ -283,4 +300,13 @@ footer {
         font-weight: 500;
         border-radius: 0 0 5px 5px;
     }
+}
+
+textarea {
+    width: 68%;
+    height: 105px;
+    margin: 0px auto;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    display: block;
 }
