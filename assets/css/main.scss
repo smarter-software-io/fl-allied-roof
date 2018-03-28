@@ -55,6 +55,12 @@ html, .body {
     & > .brand a {
         font-size: 20px;
 
+        img {
+            border-style: none;
+            width: 204px;
+            margin: -18px;
+        }
+
         &:hover {
             text-decoration: none;
         }
