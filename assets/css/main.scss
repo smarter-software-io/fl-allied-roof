@@ -286,6 +286,10 @@ footer {
             display: block;
             margin: 14px auto;
         }
+
+        textarea {
+            font-size: 14px;
+        }
     }
 
     .right {
@@ -338,5 +342,16 @@ textarea {
         > div {
             width: 100%;
         }
+    }
+}
+
+.simple-contact {
+    width: 300px;
+    max-width: 90%;
+    display: inline-block;
+    font-weight: bold;
+
+    p {
+        margin: 0;
     }
 }

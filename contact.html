@@ -11,19 +11,29 @@ permalink: /contact
     </div>
 </div>
 <div class="page">
+    <div class="text-center">
+        <div class="simple-contact">
+            <p>Florida Allied Roofing</p>
+            <p>Steve Roberts</p>
+            <p>909 SE 1st Ave, Miami, FL 33131</p>
+            <p>954-380-5951</p>
+        </div>
+    </div>
     <div class="contact">
             <div class="left">
                 <h1>Contact Us</h1>
 
-                <form action="">
-                    <input type="text" placeholder="First Name">
+                <form method="POST" action="https://formspree.io/steve@flalliedroof.com">
+                    <input name="first_name" type="text" placeholder="First Name">
 
-                    <input type="text" placeholder="Last Name">
+                    <input name="last_name" type="text" placeholder="Last Name">
 
-                    <input type="text" placeholder="Email">
+                    <input name="email" type="text" placeholder="Email">
+
+                    <input name="phone" type="text" placeholder="Phone #">
 
                     <label for="message">Details:</label>
-                    <textarea name="message" id="" cols="30" rows="10">Contact</textarea>
+                    <textarea name="message" id="" cols="30" rows="10">Please tell us about your inquiry:</textarea>
 
                     <input type="submit" value="Submit Form">
                 </form>
